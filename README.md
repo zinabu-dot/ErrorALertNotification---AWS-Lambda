@@ -6,5 +6,5 @@ Steps:
 1. Create sns TOPIC in AWS SNS TOPICs service
 2. Create an environmental variable with the ARN value of the created topic (as value)
 3. Trigger on CLOUDWATCH LOG groups (the functions from which you want to receive an alarm)
-4. Test it (just run your lambda function (the function you wanted to get the alarm for) with an event).
+4. Test it (just run your lambda function (the function you wanted to get the alarm for) with an event (error in the function)).
    
